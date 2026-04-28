@@ -15,6 +15,11 @@ class _PhotoPageState extends State<PhotoPage> {
   bool _isLoading = false;
   String? _errorMessage;
   PhotoType _animalType = PhotoType.dog;
+  // final List<String> _localPhotos = [
+  //   'assets/images/image1.jpg',
+  //   'assets/images/image2.jpg',
+  //   'assets/images/image3.jpg',
+  // ];
 
   Future<void> _fetchPhoto() async {
     setState(() {
